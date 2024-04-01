@@ -1,0 +1,1315 @@
+.landing-page .container {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.landing-page {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing-page .card-landing-page {
+  position: relative;
+  margin-bottom: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing-page .rectangle-1 {
+  background: linear-gradient(359.2deg, #F6FCFF 208.52%, #FFFFFF 234.76%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 478px;
+}
+.landing-page .frame-3 {
+  margin-right: 26.9px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  width: 64px;
+  box-sizing: border-box;
+}
+.landing-page .ellipse-1 {
+  border-radius: 8px;
+  background: var(--foundation-blue-dark, #002F4A);
+  width: 16px;
+  height: 16px;
+}
+.landing-page .ellipse-2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 1px #ADADAD solid;
+  
+}
+.landing-page .ellipse-3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 1px #ADADAD solid;
+}
+.landing-page .gambar {
+  position: absolute; 
+  width: auto;
+  height: 427px;
+  left: 940px; 
+  top: 55px; 
+  z-index: 1;
+}
+.landing-page .button-1 {
+  position: absolute;
+  left: 93px;
+  bottom: 67px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: var(--foundation-blue-normal-2, #003F62);
+  margin-right: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.8px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-1 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: #FEFEFE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.8px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .section-4 {
+  position: absolute;
+  left: 1414px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  padding: 9px 0 35px 0;
+  width: 1501px;
+  box-sizing: border-box;
+}
+.landing-page .rectangle-11 {
+  background: linear-gradient(359.2deg, #F6FCFF 208.52%, #FFFFFF 234.76%);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 478px;
+}
+.landing-page .frame-31 {
+  margin-right: 174.5px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  column-gap: 8px;
+  width: 64px;
+  box-sizing: border-box;
+}
+.landing-page .ellipse-21 {
+  border-radius: 8px;
+  width: 16px;
+  height: 16px;
+}
+.landing-page .ellipse-11 {
+  border-radius: 8px;
+  background: var(--foundation-blue-dark, #002F4A);
+  width: 16px;
+  height: 16px;
+}
+.landing-page .ellipse-31 {
+  border-radius: 8px;
+  width: 16px;
+  height: 16px;
+}
+.landing-page .temukan-peluang-sewakan-barangmu {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-1-font-family, 'Poppins');
+  font-weight: var(--heading-1-font-weight, 700);
+  font-size: var(--heading-1-font-size, 46px);
+  color: #000000;
+}
+.landing-page .screenshot-20240319094714-removebg-preview-1 {
+  background: url('../assets/images/screenshot20240319094714RemovebgPreview1.png') 50% / cover no-repeat;
+  position: relative;
+  width: 723px;
+  height: 434px;
+}
+.landing-page .button-2 {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 307px;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-2 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: var(--foundation-blue-normal-2, #003F62);
+  margin-right: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.8px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-3 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: #FEFEFE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.7px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .section-5 {
+  background: linear-gradient(359.2deg, #F6FCFF 208.52%, #FFFFFF 234.76%);
+  position: relative;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 27px 0 0 143px;
+  box-sizing: border-box;
+  width: 1440px;
+}
+.landing-page .frame-32 {
+  margin-right: 181.3px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  width: 64px;
+  box-sizing: border-box;
+}
+.landing-page .ellipse-22 {
+  border-radius: 8px;
+  width: 16px;
+  height: 16px;
+}
+.landing-page .ellipse-32 {
+  border-radius: 8px;
+  width: 16px;
+  height: 16px;
+}
+.landing-page .ellipse-12 {
+  border-radius: 8px;
+  background: var(--foundation-blue-dark, #002F4A);
+  width: 16px;
+  height: 16px;
+}
+.landing-page .kualitas-barang-terjamin-pastikan-sewa-lagi {
+  margin-bottom: 59px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-1-font-family, 'Poppins');
+  font-weight: var(--heading-1-font-weight, 700);
+  font-size: var(--heading-1-font-size, 46px);
+  color: #000000;
+}
+.landing-page .button-21 {
+  margin: 0 182.3px 63px 0;
+  display: flex;
+  flex-direction: row;
+  width: 307px;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-4 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: var(--foundation-blue-normal-2, #003F62);
+  margin-right: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.8px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-5 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-dark, #002F4A);
+  background: #FEFEFE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0.8px 17px 0;
+  width: 143px;
+  box-sizing: border-box;
+}
+.landing-page .section-41 {
+  margin: 0 auto 18px auto;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .beri-tahu-kami-yang-anda-butuhkan {
+  margin: 0 0 26px 0.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .frame-11073 {
+  margin: 13px 79.2px 9px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .nama-produk {
+  margin-bottom: 41px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-md-font-family, 'Poppins');
+  font-weight: var(--body-17-md-font-weight, 500);
+  font-size: var(--body-17-md-font-size, 17px);
+  color: #000000;
+}
+.landing-page .masukkan-nama-anda {
+  margin-bottom: 41px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-md-font-family, 'Poppins');
+  font-weight: var(--body-17-md-font-weight, 500);
+  font-size: var(--body-17-md-font-size, 17px);
+  color: #000000;
+}
+.landing-page .nomor-telepon-anda {
+  margin: 0 14.4px 41px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-md-font-family, 'Poppins');
+  font-weight: var(--body-17-md-font-weight, 500);
+  font-size: var(--body-17-md-font-size, 17px);
+  color: #000000;
+}
+.landing-page .pilih-lokasi-anda {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-md-font-family, 'Poppins');
+  font-weight: var(--body-17-md-font-weight, 500);
+  font-size: var(--body-17-md-font-size, 17px);
+  color: #000000;
+}
+.landing-page .kebutuhan-terpenuhi-1 {
+  width: 462px;
+  height: 420px;
+}
+.landing-page .primary-button {
+  border-radius: 10px;
+  background: var(--foundation-yellow-normal, #EDA415);
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0.6px 10px 0;
+  width: 199px;
+  box-sizing: border-box;
+}
+.landing-page .frame-11072 {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  box-sizing: border-box;
+}
+.landing-page .nama-produk-1 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 19px;
+  padding: 13px 21px 14px 16px;
+  width: fit-content;
+  box-sizing: border-box;
+  width: 305px;
+}
+.landing-page .nama-user {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 19px;
+  padding: 13px 21px 14px 16px;
+  width: fit-content;
+  box-sizing: border-box;
+  width: 305px;
+}
+.landing-page .nomor-telepon {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 19px;
+  padding: 13px 21px 14px 16px;
+  width: fit-content;
+  box-sizing: border-box;
+  width: 305px;
+}
+.landing-page .alamat {
+  border-radius: 10px;
+  border: 1px solid #002F4A;
+  background: #FEFEFE;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 13px 21px 14px 16px;
+  width: 305px;
+  box-sizing: border-box;
+}
+.landing-page .section-6 {
+  margin: 0 auto 136px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1120px;
+  box-sizing: border-box;
+}
+.landing-page .group-6 {
+  margin: 0 6px 54px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .produk-kami {
+  margin: 0 25px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: var(--foundation-yellow-normal, #EDA415);
+}
+.landing-page .kami-sediakan-yang-anda-butuhkan {
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-bold-font-family, 'Poppins');
+  font-weight: var(--heading-2-bold-font-weight, 700);
+  font-size: var(--heading-2-bold-font-size, 36px);
+  color: var(--foundation-blue-normal-2, #003F62);
+}
+.landing-page .frame-103 {
+  display: flex;
+  flex-direction: row;
+  width: 1120px;
+  box-sizing: border-box;
+}
+.landing-page .frame-49 {
+  border-radius: 32px;
+  background: #F3F8FB;
+  position: relative;
+  margin-right: 25px;
+  width: 200px;
+  height: 264px;
+}
+.landing-page .elektronik {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .camera {
+  position: absolute;
+  left: 50%;
+  top: 38px;
+  translate: -50% 0;
+  width: 110px;
+  height: 110px;
+}
+.landing-page .frame-97 {
+  border-radius: 32px;
+  background: #F3F8FB;
+  position: relative;
+  margin-right: 35px;
+  width: 200px;
+  height: 264px;
+}
+.landing-page .pakaian {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .group-55 {
+  position: absolute;
+  left: 50%;
+  top: 43px;
+  translate: -50% 0;
+  width: 110px;
+  height: 110px;
+}
+.landing-page .frame-102 {
+  border-radius: 32px;
+  background: #F3F8FB;
+  position: relative;
+  margin-right: 35px;
+  width: 200px;
+  height: 264px;
+}
+.landing-page .kendaraan {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .group-56 {
+  position: absolute;
+  left: 50%;
+  top: 39px;
+  translate: -50% 0;
+  width: 110px;
+  height: 110px;
+}
+.landing-page .frame-100 {
+  border-radius: 32px;
+  background: #F3F8FB;
+  position: relative;
+  margin-right: 25px;
+  width: 200px;
+  height: 264px;
+}
+.landing-page .hobi {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .group-57 {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  translate: -50% 0;
+  width: 106px;
+  height: 110px;
+}
+.landing-page .frame-101 {
+  border-radius: 32px;
+  background: #F3F8FB;
+  position: relative;
+  width: 200px;
+  height: 264px;
+}
+.landing-page .peralatan {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: #000000;
+}
+.landing-page .frame-1021 {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  translate: -50% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  box-sizing: border-box;
+}
+.landing-page .frame-1011 {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+.landing-page .section-2 {
+  margin: 0 auto 93px auto;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .sewa-mudah-hanya-dengan-3-langkah {
+  margin: 0 0 31px 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-bold-font-family, 'Poppins');
+  font-weight: var(--heading-2-bold-font-weight, 700);
+  font-size: var(--heading-2-bold-font-size, 36px);
+  color: var(--foundation-yellow-normal, #EDA415);
+}
+.landing-page .cara-sewa {
+  margin: 0 3px 7px 3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-3-bold-font-family, 'Poppins');
+  font-weight: var(--heading-3-bold-font-weight, 700);
+  font-size: var(--heading-3-bold-font-size, 26px);
+  color: var(--foundation-blue-normal-2, #003F62);
+}
+.landing-page .pilih-produk {
+  margin: 0 0.4px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--body-18-bd-font-family, 'Poppins');
+  font-weight: var(--body-18-bd-font-weight, 700);
+  font-size: var(--body-18-bd-font-size, 18px);
+  color: #000000;
+}
+.landing-page .menyewa-barang-yang-dibutuhkan {
+  overflow-wrap: break-word;
+  font-family: var(--body-17-rg-font-family, 'Poppins');
+  font-weight: var(--body-17-rg-font-weight, 400);
+  font-size: var(--body-17-rg-font-size, 17px);
+  color: #000000;
+}
+.landing-page .pemakaian-dan-perpanjang {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--body-18-bd-font-family, 'Poppins');
+  font-weight: var(--body-18-bd-font-weight, 700);
+  font-size: var(--body-18-bd-font-size, 18px);
+  color: #000000;
+}
+.landing-page .mengunggah-fotovideo-yang-memperlihatkan-kondisi-barang-saat-diterima {
+  overflow-wrap: break-word;
+  font-family: var(--body-17-rg-font-family, 'Poppins');
+  font-weight: var(--body-17-rg-font-weight, 400);
+  font-size: var(--body-17-rg-font-size, 17px);
+  color: #000000;
+}
+.landing-page .pengembalian-barang {
+  margin-bottom: 5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--body-18-bd-font-family, 'Poppins');
+  font-weight: var(--body-18-bd-font-weight, 700);
+  font-size: var(--body-18-bd-font-size, 18px);
+  color: #000000;
+}
+.landing-page .mengisi-form-selesai-sewa-dengan-menyertakan-fotovideo-barang-sesudah-dipakai {
+  overflow-wrap: break-word;
+  font-family: var(--body-17-rg-font-family, 'Poppins');
+  font-weight: var(--body-17-rg-font-weight, 400);
+  font-size: var(--body-17-rg-font-size, 17px);
+  color: #000000;
+}
+.landing-page .group-23 {
+  border-radius: 15px;
+  background: #DAEAF3;
+  position: relative;
+  margin-right: 11.6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 0 15px 1px;
+  width: 80px;
+  height: 65px;
+  box-sizing: border-box;
+}
+.landing-page .eye-1 {
+  width: 35px;
+  height: 33px;
+}
+.landing-page .group-24 {
+  border-radius: 15px;
+  background: #DAEAF3;
+  position: relative;
+  margin: 13px 15px 6px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px 0 15px 1px;
+  width: 80px;
+  height: 65px;
+  box-sizing: border-box;
+}
+.landing-page .clipboard-2-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 26.3px;
+  height: 35px;
+  box-sizing: border-box;
+}
+.landing-page .group-25 {
+  border-radius: 15px;
+  background: #EDA415;
+  position: relative;
+  margin: 9px 15px 9px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 1px 18px 0;
+  width: 80px;
+  height: 65px;
+  box-sizing: border-box;
+}
+.landing-page .alarm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 31px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.landing-page .group {
+  width: 365px;
+  height: 448px;
+}
+.landing-page .arrow-up-square-fill {
+  margin: 0 52px 33px 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60px;
+  height: 53px;
+  box-sizing: border-box;
+}
+.landing-page .navbar-revisi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing-page .container-1 {
+  margin: 0 3px 32px 3px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .container-2 {
+  margin: 8.1px 0 8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 278.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .container-3 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .container-4 {
+  margin: 28px 98.7px 87px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.landing-page .container-5 {
+  display: flex;
+  flex-direction: row;
+  width: 992px;
+  box-sizing: border-box;
+}
+.landing-page .container-6 {
+  position: relative;
+  margin: 28px 291.1px 87px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.landing-page .container-7 {
+  position: relative;
+  margin: 38px 0 68px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .container-8 {
+  background: #E2F4FF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 27px 56px 16px 56px;
+  width: 715px;
+  box-sizing: border-box;
+}
+.landing-page .container-9 {
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .container-10 {
+  margin-bottom: 51px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .container-11 {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .container-12 {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .container-13 {
+  margin: 0 4px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 144px;
+  box-sizing: border-box;
+}
+.landing-page .container-14 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .container-15 {
+  margin: 0 20.1px 21px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .copyright {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  box-sizing: border-box;
+}
+.landing-page .copyright-2024-curtina-ambhilasa {
+  margin-left: 127.3px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000000;
+}
+.landing-page .line-17 {
+  background: #351C22;
+  margin-bottom: 14px;
+  width: 1200px;
+  height: 1px;
+}
+.landing-page .stay-in-the-loop {
+  border-radius: 45.6px;
+  margin: 7px 174px 57.2px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.landing-page .subtract-1 {
+  width: 36px;
+  height: 36px;
+}
+.landing-page .secondary-button-6 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-light-2, #E6ECEF);
+}
+.landing-page .secondary-button-7 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-dark, #002F4A);
+}
+.landing-page .secondary-button-8 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-light-2, #E6ECEF);
+}
+.landing-page .secondary-button-9 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-dark, #002F4A);
+}
+.landing-page .secondary-button-10 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-light-2, #E6ECEF);
+}
+.landing-page .secondary-button-11 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-blue-dark, #002F4A);
+}
+.landing-page .buka-toko-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal, #FEFEFE);
+}
+.landing-page .masukkan-nama-produk {
+  overflow-wrap: break-word;
+  font-family: var(--body-14-rg-font-family, 'Poppins');
+  font-weight: var(--body-14-rg-font-weight, 400);
+  font-size: var(--body-14-rg-font-size, 14px);
+  color: #C8C8C8;
+}
+.landing-page .masukkan-nama-anda-1 {
+  overflow-wrap: break-word;
+  font-family: var(--body-14-rg-font-family, 'Poppins');
+  font-weight: var(--body-14-rg-font-weight, 400);
+  font-size: var(--body-14-rg-font-size, 14px);
+  color: #C8C8C8;
+}
+.landing-page .masukkan-nomor-telepon {
+  overflow-wrap: break-word;
+  font-family: var(--body-14-rg-font-family, 'Poppins');
+  font-weight: var(--body-14-rg-font-weight, 400);
+  font-size: var(--body-14-rg-font-size, 14px);
+  color: #C8C8C8;
+}
+.landing-page .masukkan-alamat {
+  margin-right: 10.5px;
+  width: 235.5px;
+  overflow-wrap: break-word;
+  font-family: var(--body-01-font-family, 'Poppins');
+  font-weight: var(--body-01-font-weight, 500);
+  font-size: var(--body-01-font-size, 14px);
+  color: var(--foundation-primary-p-300, #265073);
+}
+.landing-page .search {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 19px;
+  box-sizing: border-box;
+}
+.landing-page .union {
+  width: 22px;
+  height: 19px;
+}
+.landing-page .union-1 {
+  width: 26.3px;
+  height: 35px;
+}
+.landing-page .v-2 {
+  width: 31px;
+  height: 30px;
+}
+.landing-page .subtract-2 {
+  width: 60px;
+  height: 53px;
+}
+.landing-page .nav-color {
+  background: var(--foundation-blue-normal-2, #003F62);
+  margin-right: 0.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5px 26.2px 2.5px 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing-page .logo-searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 694.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .logo-1 {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 107px;
+  height: 90px;
+  box-sizing: border-box;
+}
+.landing-page .group-11037 {
+  border-radius: 48px;
+  position: relative;
+  margin: 14px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 1px;
+  width: 557.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .search-1 {
+  border-radius: 48px;
+  border: 1px solid var(--gray-200, #B3B3B3);
+  background: var(--white, #FFFFFF);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 17.8px 0 17.8px 14.3px;
+  width: 557.5px;
+  height: 61.5px;
+  box-sizing: border-box;
+}
+.landing-page .search-container {
+  display: flex; 
+  align-items: center; 
+}
+.landing-page .leading-icon {
+  margin-right: 15.3px; 
+  width: 17.5px;
+  height: 17.5px;
+  box-sizing: border-box;
+}
+.landing-page .vector-148 {
+  width: 17.5px;
+  height: 17.5px;
+}
+.landing-page .search-2 {
+  overflow-wrap: break-word;
+  font-family: var(--android-body-1-font-family, 'Poppins');
+  font-weight: var(--android-body-1-font-weight, 400);
+  font-size: var(--android-body-1-font-size, 16px);
+  line-height: var(--android-body-1-line-height, 1.5);
+  color: var(--gray-100, #666666);
+}
+.landing-page .primary-button-2 {
+  border-radius: 48px;
+  background: var(--foundation-yellow-normal, #EDA415);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18.5px 0.4px 18.5px 0;
+  width: 148.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .buka-toko-2 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal, #FEFEFE);
+}
+.landing-page .button-navbar {
+  margin: 23px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 425.5px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .frame-108 {
+  margin-top: 1.6px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.landing-page .cart-3 {
+  margin-right: 14.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 32.8px;
+  height: 26.3px;
+  box-sizing: border-box;
+}
+.landing-page .vector-stroke {
+  width: 32.8px;
+  height: 26.3px;
+}
+.landing-page .keranjang {
+  margin: 0.8px 0 2.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-bold-font-family, 'Poppins');
+  font-weight: var(--body-17-bold-font-weight, 700);
+  font-size: var(--body-17-bold-font-size, 16px);
+  color: #FFFFFF;
+}
+.landing-page .primary-button-3 {
+  border-radius: 10px;
+  background: var(--foundation-yellow-normal, #EDA415);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0.5px 10px 0;
+  width: 103px;
+  box-sizing: border-box;
+}
+.landing-page .buka-toko-3 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal, #FEFEFE);
+}
+.landing-page .primary-button-3 {
+  border-radius: 10px;
+  background: var(--foundation-yellow-normal, #EDA415);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0.5px 10px 0;
+  width: 103px;
+  box-sizing: border-box;
+}
+.landing-page .buka-toko-3 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal, #FEFEFE);
+}
+.landing-page .nav-putih {
+  background: var(--foundation-blue-lightactive-2, #F6FCFF);
+  margin-left: 0.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing-page .alamat-1 {
+  border-radius: 10px;
+  border: 1px solid #002F4A;
+  background: #FEFEFE;
+  position: relative;
+  margin: 17.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 13px 21px 14px 16px;
+  width: 305px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .masukkan-alamat-1 {
+  margin-right: 10.5px;
+  width: 235.5px;
+  overflow-wrap: break-word;
+  font-family: var(--body-01-font-family, 'Poppins');
+  font-weight: var(--body-01-font-weight, 500);
+  font-size: var(--body-01-font-size, 14px);
+  color: var(--foundation-primary-p-300, #265073);
+}
+.landing-page .search-3 {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 19px;
+  box-sizing: border-box;
+}
+.landing-page .union-2 {
+  width: 22px;
+  height: 19px;
+}
+.landing-page .frame-106 {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.landing-page .box {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 27px;
+  height: 27.9px;
+  box-sizing: border-box;
+}
+.landing-page .vector-111-stroke {
+  width: 27px;
+  height: 27.9px;
+}
+.landing-page .pesanan {
+  margin: 2.4px 0 2.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--body-17-bold-font-family, 'Poppins');
+  font-weight: var(--body-17-bold-font-weight, 700);
+  font-size: var(--body-17-bold-font-size, 16px);
+  color: #FFFFFF;
+}
+.landing-page .primary-button-4 {
+  background: var(--foundation-yellow-normal, #EDA415);
+  margin-right: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 29.5px 18px 29.5px 19.3px;
+  width: 280px;
+  box-sizing: border-box;
+}
+.landing-page .pilih-kategori-barang {
+  margin-right: 12px;
+  width: 220.7px;
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal, #FEFEFE);
+}
+.landing-page .chevron {
+  opacity: 0.8;
+  margin: 9.5px 0;
+  width: 10px;
+  height: 5px;
+}
+.landing-page .frame-107 {
+  margin: 16.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 636px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.landing-page .secondary-button-14 {
+  border-radius: 10px;
+  border: 1px solid var(--foundation-blue-darkhover, #00263B);
+  background: var(--foundation-blue-normal-2, #003F62);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10.5px 10.6px 10.5px 10.5px;
+  box-sizing: border-box;
+}
+.landing-page .katalog {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: var(--foundation-blue-light-2, #E6ECEF);
+}
+.landing-page .secondary-button-15 {
+  border-radius: 10px;
+  margin: 11.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.landing-page .katalog-1 {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: #000000;
+}
+.landing-page .secondary-button-16 {
+  border-radius: 10px;
+  margin: 11.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.landing-page .katalog-2 {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: #000000;
+}
+.landing-page .secondary-button-17 {
+  border-radius: 10px;
+  margin: 11.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.landing-page .katalog-3 {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: #000000;
+}
+.landing-page .secondary-button-18 {
+  border-radius: 10px;
+  margin: 11.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.landing-page .katalog-4 {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: #000000;
+}
