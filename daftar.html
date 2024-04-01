@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Daftar</title>
+  <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+  <div class="popup" id="popup-1">
+    <div class="content">
+      <div class="background">
+      <img src="image/keranjang.png" alt="Keranjang"/>
+        </div>
+        <div class="close-btn" onclick="togglePopup()">x</div>
+        <h1> Daftar dulu, yuk!</h1>
+        <label>Username</label>
+        <div class="input-field">
+          <input placeholder="Masukan username" class="validate">
+        </div>
+        <label style="padding-right: 18px;">Email</label>
+        <div class="input-field">
+          <input placeholder="Masukan email" class="validate">
+        </div>
+        <label>Password</label>
+        <div class="input-field">
+          <input placeholder="Password" class="validate">
+        </div>
+        <button class="second-button"> Daftar </button>
+        <div class="line">atau</div> 
+        <div class="fb"><img class="right" style="width: 15px; height: 12px;  margin-top: -150px; margin-bottom: -8px;" src="image/ikon_facebook.png"> Lanjut dengan Facebook</div>
+        <div class="gg"><img class="right" style="width: 13px; height: 10px;  margin-top: -150px; margin-bottom: -7px;" src="image/ikon_google.png">Lanjut dengan Google</div>
+        <p> Sudah punya akun? <a href="/login.html"> Masuk </a> </p>
+    </div> 
+  </div>
+</div>
+  <button onclick="togglePopup()" class="first-button"> Daftar </button>
+  <script>
+    function togglePopup() {
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+  </script>
+</body>
+</html>
