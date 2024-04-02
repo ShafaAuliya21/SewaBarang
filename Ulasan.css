@@ -1,0 +1,194 @@
+.ulasan {
+  border-radius: 60px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 59px 82px 47px 82px;
+  width: 1000px;
+  box-sizing: border-box;
+}
+.ulasan .bagaimana-produk-kami {
+  margin: 0 22.4px 42.2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-bold-font-family, 'Poppins');
+  font-weight: var(--heading-2-bold-font-weight, 700);
+  font-size: var(--heading-2-bold-font-size, 36px);
+  color: var(--foundation-blue-normal, #003F62);
+}
+.ulasan .camera {
+  margin: 0 0 11.4px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 64px;
+  height: 44.3px;
+  box-sizing: border-box;
+}
+.ulasan .camera-video {
+  margin-bottom: 9.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 69px;
+  height: 40.6px;
+  box-sizing: border-box;
+}
+.ulasan .unggah-foto {
+  overflow-wrap: break-word;
+  font-family: var(--body-14-rg-font-family, 'Poppins');
+  font-weight: var(--body-14-rg-font-weight, 400);
+  font-size: var(--body-14-rg-font-size, 14px);
+  color: #000000;
+}
+.ulasan .unggah-video {
+  overflow-wrap: break-word;
+  font-family: var(--body-14-rg-font-family, 'Poppins');
+  font-weight: var(--body-14-rg-font-weight, 400);
+  font-size: var(--body-14-rg-font-size, 14px);
+  color: #000000;
+}
+.ulasan .primary-button {
+  border-radius: 10px;
+  background: var(--foundation-yellow-normal, #EDA415);
+  margin-left: 37px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0.6px 10px 0;
+  width: 347px;
+  box-sizing: border-box;
+}
+.ulasan .komentar {
+  border-radius: 10px;
+  border: 1px solid #1B3851;
+  position: relative;
+  margin-bottom: 54px;
+  padding: 19px 25.3px 207px 25.3px;
+  width: 800px;
+  box-sizing: border-box;
+}
+.ulasan .rate {
+  margin: 0 3px 70.2px 0;
+  display: flex;
+  flex-direction: row;
+  width: 387px;
+  box-sizing: border-box;
+}
+.ulasan .container {
+  border-radius: 40px;
+  border: 1px dashed #001622;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34.2px 0 17px 0;
+  width: 297px;
+  box-sizing: border-box;
+}
+.ulasan .container-1 {
+  border-radius: 40px;
+  border: 1px dashed #001622;
+  position: relative;
+  margin-right: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28.4px 0 17px 0;
+  width: 297px;
+  box-sizing: border-box;
+}
+.ulasan .container-2 {
+  margin: 0 11px 59px 0;
+  display: flex;
+  flex-direction: row;
+  width: 613px;
+  box-sizing: border-box;
+}
+.ulasan .vector {
+  width: 64px;
+  height: 44.3px;
+}
+.ulasan .camera-video-1 {
+  width: 69px;
+  height: 40.6px;
+}
+.ulasan .buka-toko {
+  overflow-wrap: break-word;
+  font-family: var(--heading-02-font-family, 'Poppins');
+  font-weight: var(--heading-02-font-weight, 700);
+  font-size: var(--heading-02-font-size, 16px);
+  color: var(--foundation-primary-normal-1, #FEFEFE);
+}
+.ulasan .tulis-komentar {
+  overflow-wrap: break-word;
+  font-family: var(--body-18-rg-font-family, 'Poppins');
+  font-weight: var(--body-18-rg-font-weight, 400);
+  font-size: var(--body-18-rg-font-size, 18px);
+  color: var(--foundation-primary-darkactive, #727272);
+}
+.ulasan .star {
+  margin-right: 13.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 66.7px;
+  height: 65.6px;
+  box-sizing: border-box;
+}
+.ulasan .subtract {
+  width: 66.7px;
+  height: 65.6px;
+}
+.ulasan .star-1 {
+  margin-right: 13.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 66.7px;
+  height: 65.6px;
+  box-sizing: border-box;
+}
+.ulasan .subtract-1 {
+  width: 66.7px;
+  height: 65.6px;
+}
+.ulasan .star-2 {
+  margin-right: 13.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 66.7px;
+  height: 65.6px;
+  box-sizing: border-box;
+}
+.ulasan .subtract-2 {
+  width: 66.7px;
+  height: 65.6px;
+}
+.ulasan .star-3 {
+  margin-right: 13.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 66.7px;
+  height: 65.6px;
+  box-sizing: border-box;
+}
+.ulasan .subtract-3 {
+  width: 66.7px;
+  height: 65.6px;
+}
+.ulasan .star-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 66.7px;
+  height: 65.6px;
+  box-sizing: border-box;
+}
+.ulasan .subtract-4 {
+  width: 66.7px;
+  height: 65.6px;
+}
