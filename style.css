@@ -946,10 +946,12 @@
   color: #FFFFFF;
 }
 .landing-page .container-1 {
+  margin-bottom: 32px;
   display: flex;
   flex-direction: row;
-  width: 254.5px;
+  align-self: flex-start;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .landing-page .button-store {
   border-radius: 10px;
