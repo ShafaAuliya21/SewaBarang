@@ -17,24 +17,20 @@
     <div class="navbar-revisi">
       <div class="nav-color">
         <div class="logo-searchbar">
-          <div class="logo-1">
+          <div class="logo">
             <img src="img/Logo.png" alt="">
           </div>
           <div class="group-11037">
-            <img class="vector-148" src="icon/Search.svg" />
-            <span class="search-2">
-              Search
-            </span>
-            <div class="search-1">
+            <div class="search-nav">
               <div class="search-container">
                 <div class="leading-icon">
-                    <img class="vector-148" src="icon/Search.svg" />
+                    <img class="vector-search" src="icon/Search.svg" />
                 </div>
-                <span class="search-2">Search</span>
+                <span class="search-1">Search</span>
             </div>            
             </div>
-            <div class="primary-button-2">
-              <span class="buka-toko-2">
+            <div class="primary-button-nav">
+              <span class="buka-toko">
                 Cari
               </span>
             </div>
@@ -59,21 +55,35 @@
               </div>
             </div>
           </div>
-          <div class="primary-button-3">
-            <span class="buka-toko-3">
-              Daftar
-            </span>
+          <div class="container-1">
+            <div class="button-store">
+              <img class="union-3" src="icon/Union.svg" />
+              <span class="buka-toko-2">
+                Buka Toko
+              </span>
+            </div>
+            <div class="primary-button-2">
+              <span class="buka-toko-1">
+                Daftar
+              </span>
+            </div>
           </div>
         </div>
       </div>
       <div class="nav-putih">
-        <div class="container-5">
-          <div class="primary-button-4">
-            <span class="pilih-kategori-barang">
-              Pilih Kategori Barang
-            </span>
-            <img class="chevron" src="icon/Chevron.svg" />
-          </div>
+        <div class="container">
+          <div class="dropdown" id="kategoriDropdown">
+            <span class="text">Pilih Kategori Barang</span>
+            <img class="chevron" src="icon/Chevron.svg" id="dropdownIcon"/>
+            <ul>
+                <li><a href="#"><div class="box-icon"><img src="icon/semua.svg" alt="Semua"></div>Semua</a></li>
+                <li><a href="katalogTerdekat.html"><div class="box-icon"><img src="icon/elektro.svg" alt="Elektronik"></div>Elektronik</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/pakaian1.svg" alt="Pakaian"></div>Pakaian</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/kendaraan1.svg" alt="Kendaraan"></div>Kendaraan</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/hobi.svg" alt="Hobi"></div>Hobi</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/peralatan1.svg" alt="Peralatan"></div>Peralatan</a></li>
+            </ul>
+        </div>                           
           <div class="frame-107">
             <div class="secondary-button-14">
               <span class="katalog">
@@ -116,34 +126,6 @@
       <div class="section-1">
         <div class="rectangle-1">
         </div>
-        <div class="container-6">
-          <div class="sewa-apapun-dengan-tenang-harga-terjangkau">
-            Sewa Apapun dengan <br> Tenang Harga Terjangkau
-          </div>
-          <div class="frame-3">
-            <div class="ellipse-1">
-            </div>
-            <div class="ellipse-2">
-            </div>
-            <div class="ellipse-3">
-            </div>
-          </div>
-          <div class="button-1">
-            <div class="secondary-button">
-              <span class="secondary-button-6">
-                Katalog
-              </span>
-            </div>
-            <div class="secondary-button-1">
-              <span class="secondary-button-7">
-                Request
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="gambar">
-            <img src="img/img2.svg" alt="">
-          </div>
       </div>
       <div class="section-5">
         <div class="container-4">
@@ -187,33 +169,33 @@
       </div>
       <div class="frame-103">
         <div class="frame-49">
-          <span class="elektronik">
+          <a href="katalogTerdekat.html" class="elektronik">
             Elektronik
-          </span>
+          </a>
           <img class="camera" src="img/elektronik.svg" />
         </div>
         <div class="frame-97">
-          <span class="pakaian">
+          <a href="#" class="pakaian">
             Pakaian
-          </span>
+          </a>
           <img class="group-55" src="img/pakaian.svg" />
         </div>
         <div class="frame-102">
-          <span class="kendaraan">
+          <a href="#" class="kendaraan">
             Kendaraan
-          </span>
+          </a>
           <img class="group-56" src="img/kendaraan.svg" />
         </div>
         <div class="frame-100">
-          <span class="hobi">
+          <a href="#" class="hobi">
             Hobi
-          </span>
+          </a>
           <img class="group-57" src="img/hobi.svg" />
         </div>
         <div class="frame-101">
-          <span class="peralatan">
+          <a href="#" class="peralatan">
             Peralatan
-          </span>
+          </a>
           <div class="frame-1021">
             <img class="frame-1011" src="img/peralatan.svg" />
           </div>
@@ -334,7 +316,7 @@
       <img class="subtract-2" src="icon/arrow-up-square-fill.svg" />
     </div>
     <div style="width: 100%; height: 100%; position: relative">
-      <div style="width: 1440px; height: 430px; left: 0px; top: 0px; position: absolute; background: #E2F4FF"></div>
+      <div style="width: 100%; height: 430px; left: 0px; top: 0px; position: absolute; background: #E2F4FF"></div>
       <div style="width: 1200px; height: 37px; left: 113px; top: 377px; position: absolute">
           <div style="width: 293px; left: 534px; top: 15px; position: absolute; color: black; font-size: 14px; font-family: Poppins; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Copyright © 2024  CurtinaAmbhilasa</div>
           <div style="width: 1200px; height: 0px; left: 0px; top: 0px; position: absolute; border: 1px #351C22 solid"></div>
@@ -347,7 +329,7 @@
               </div>
           </div>
           <div style="width: 333px; left: 0px; top: 65px; position: absolute; text-align: justify"><span style="color: #002F4A; font-size: 14px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Zerent adalah platform </span><span style="color: #002F4A; font-size: 14px; font-family: Poppins; font-style: italic; font-weight: 400; word-wrap: break-word">e-commerce</span><span style="color: #002F4A; font-size: 14px; font-family: Poppins; font-weight: 400; word-wrap: break-word"> inovatif yang mengkhususkan dalam penyewaan barang dari berbagai kategori. Zerent juga menyediakan fitur permintaan untuk penyediaan stok barang yang kalian butuhkan.</span></div>
-          <div style="width: 191px; left: 0px; top: 0px; position: absolute; color: #003F62; font-size: 28.50px; font-family:P; font-weight: 700; word-wrap: break-word">Zerent</div>
+          <div style="width: 191px; left: 0px; top: 0px; position: absolute; color: #003F62; font-size: 28.50px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Zerent</div>
       </div>
       <div style="width: 252px; height: 168px; left: 1076px; top: 81px; position: absolute">
           <div style="width: 252px; left: 0px; top: 47px; position: absolute; color: #002F4A; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 28px; word-wrap: break-word">Bantuan<br/>Pengembalian Barang<br/>Syarat & Ketentuan<br/>FAQ</div>
@@ -358,7 +340,7 @@
           <div style="width: 264px; left: 9px; top: 0px; position: absolute; color: #003F62; font-size: 18px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Terus ikuti Perkembangan</div>
           <div style="width: 364px; height: 60.79px; left: 0px; top: 120px; position: absolute">
               <div style="width: 364px; height: 60.79px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 45.59px; border: 1px black solid"></div>
-              <div style="width: 144.38px; height: 15.96px; left: 38px; top: 21px; position: absolute; color: #959595; font-size: 12.16px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Masukkan email</div>
+              <div style="width: 100%; height: 15.96px; left: 38px; top: 21px; position: absolute; color: #959595; font-size: 12.16px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Masukkan email</div>
           </div>
       </div>
       <div style="width: 130px; height: 28px; padding: 10px; left: 746px; top: 215px; position: absolute; background: #EDA415; border-radius: 45px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
@@ -373,5 +355,27 @@
   </div>
     </div>
   </div>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+    var dropdownIcon = document.getElementById("dropdownIcon");
+    var dropdown = document.getElementById("kategoriDropdown");
+
+    dropdownIcon.addEventListener("click", function() {
+        dropdown.classList.toggle("active");
+        // Mengubah tampilan daftar ketika ikon diklik
+        var dropdownList = dropdown.querySelector("ul");
+        dropdownList.style.display = dropdownList.style.display === "block" ? "none" : "block";
+    });
+
+    // Menutup dropdown ketika mengklik di luar dropdown dan ikon
+    document.addEventListener("click", function(event) {
+        if (!dropdown.contains(event.target) && !dropdownIcon.contains(event.target)) {
+            dropdown.classList.remove("active");
+            dropdown.querySelector("ul").style.display = "none"; // Mengembalikan tampilan daftar ke semula
+        }
+    });
+  });
+</script>
 </body>
 </html>

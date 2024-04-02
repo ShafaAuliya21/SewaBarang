@@ -17,24 +17,20 @@
     <div class="navbar-revisi">
       <div class="nav-color">
         <div class="logo-searchbar">
-          <div class="logo-1">
+          <div class="logo">
             <img src="img/Logo.png" alt="">
           </div>
           <div class="group-11037">
-            <img class="vector-148" src="icon/Search.svg" />
-            <span class="search-2">
-              Search
-            </span>
-            <div class="search-1">
+            <div class="search-nav">
               <div class="search-container">
                 <div class="leading-icon">
-                    <img class="vector-148" src="icon/Search.svg" />
+                    <img class="vector-search" src="icon/Search.svg" />
                 </div>
-                <span class="search-2">Search</span>
+                <span class="search-1">Search</span>
             </div>            
             </div>
-            <div class="primary-button-2">
-              <span class="buka-toko-2">
+            <div class="primary-button-nav">
+              <span class="buka-toko">
                 Cari
               </span>
             </div>
@@ -59,21 +55,35 @@
               </div>
             </div>
           </div>
-          <div class="primary-button-3">
-            <span class="buka-toko-3">
-              Daftar
-            </span>
+          <div class="container-1">
+            <div class="button-store">
+              <img class="union-3" src="icon/Union.svg" />
+              <span class="buka-toko-2">
+                Buka Toko
+              </span>
+            </div>
+            <div class="primary-button-2">
+              <span class="buka-toko-1">
+                Daftar
+              </span>
+            </div>
           </div>
         </div>
       </div>
       <div class="nav-putih">
-        <div class="container-5">
-          <div class="primary-button-4">
-            <span class="pilih-kategori-barang">
-              Pilih Kategori Barang
-            </span>
-            <img class="chevron" src="icon/Chevron.svg" />
-          </div>
+        <div class="container">
+          <div class="dropdown" id="kategoriDropdown">
+            <span class="text">Pilih Kategori Barang</span>
+            <img class="chevron" src="icon/Chevron.svg" id="dropdownIcon"/>
+            <ul>
+                <li><a href="#"><div class="box-icon"><img src="icon/semua.svg" alt="Semua"></div>Semua</a></li>
+                <li><a href="katalogTerdekat.html"><div class="box-icon"><img src="icon/elektro.svg" alt="Elektronik"></div>Elektronik</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/pakaian1.svg" alt="Pakaian"></div>Pakaian</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/kendaraan1.svg" alt="Kendaraan"></div>Kendaraan</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/hobi.svg" alt="Hobi"></div>Hobi</a></li>
+                <li><a href="#"><div class="box-icon"><img src="icon/peralatan1.svg" alt="Peralatan"></div>Peralatan</a></li>
+            </ul>
+        </div>                           
           <div class="frame-107">
             <div class="secondary-button-14">
               <span class="katalog">
@@ -96,16 +106,18 @@
               </span>
             </div>
             <div class="secondary-button-18">
-              <span class="katalog-4">
-                Bantuan
-              </span>
-            </div>
+              <a href="faq.html">
+                  <span class="katalog-4">
+                      Bantuan
+                  </span>
+              </a>
+          </div>
           </div>
         </div>
         <div class="alamat-1">
-          <span class="masukkan-alamat-1">
-            Masukkan Alamat
-          </span>
+          <a href="lokasiMaps.html" class="no-underline">
+            <span class="masukkan-alamat-1">Masukkan Alamat</span>
+          </a>
           <div class="search-3">
             <img class="union-2" src="icon/Search2.svg" />
           </div>
@@ -159,33 +171,33 @@
       </div>
       <div class="frame-103">
         <div class="frame-49">
-          <span class="elektronik">
+          <a href="katalogTerdekat.html" class="elektronik">
             Elektronik
-          </span>
+          </a>
           <img class="camera" src="img/elektronik.svg" />
         </div>
         <div class="frame-97">
-          <span class="pakaian">
+          <a href="#" class="pakaian">
             Pakaian
-          </span>
+          </a>
           <img class="group-55" src="img/pakaian.svg" />
         </div>
         <div class="frame-102">
-          <span class="kendaraan">
+          <a href="#" class="kendaraan">
             Kendaraan
-          </span>
+          </a>
           <img class="group-56" src="img/kendaraan.svg" />
         </div>
         <div class="frame-100">
-          <span class="hobi">
+          <a href="#" class="hobi">
             Hobi
-          </span>
+          </a>
           <img class="group-57" src="img/hobi.svg" />
         </div>
         <div class="frame-101">
-          <span class="peralatan">
+          <a href="#" class="peralatan">
             Peralatan
-          </span>
+          </a>
           <div class="frame-1021">
             <img class="frame-1011" src="img/peralatan.svg" />
           </div>
@@ -345,5 +357,27 @@
   </div>
     </div>
   </div>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+    var dropdownIcon = document.getElementById("dropdownIcon");
+    var dropdown = document.getElementById("kategoriDropdown");
+
+    dropdownIcon.addEventListener("click", function() {
+        dropdown.classList.toggle("active");
+        // Mengubah tampilan daftar ketika ikon diklik
+        var dropdownList = dropdown.querySelector("ul");
+        dropdownList.style.display = dropdownList.style.display === "block" ? "none" : "block";
+    });
+
+    // Menutup dropdown ketika mengklik di luar dropdown dan ikon
+    document.addEventListener("click", function(event) {
+        if (!dropdown.contains(event.target) && !dropdownIcon.contains(event.target)) {
+            dropdown.classList.remove("active");
+            dropdown.querySelector("ul").style.display = "none"; // Mengembalikan tampilan daftar ke semula
+        }
+    });
+  });
+</script>
 </body>
 </html>

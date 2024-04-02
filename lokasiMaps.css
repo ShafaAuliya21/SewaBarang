@@ -1,0 +1,324 @@
+.lokasi {
+    flex-direction: column;
+    padding: 34px 79px 94px 57px;
+    width: 830px;
+    height: 700px;
+    position: relative; 
+    background:rgba(255,255,255,0.9);
+    border-radius: 60px; 
+    margin: 0 auto;
+    top: 50%;
+    left: 0;
+    box-shadow: 0px 0px 20px 5px rgba(227, 222, 222, 0.2);
+  }
+  .lokasi .group-13 {
+    border-radius: 48px;
+    position: relative;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 7px 12px 4px 12px;
+    width: 421px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .lokasi .search {
+    border-radius: 48px;
+    border: 1px solid var(--gray-200, #B3B3B3);
+    background: var(--white-1, #FFFFFF);
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    padding: 15px 0 18px 14.3px;
+    width: 421px;
+    height: 55px;
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center;
+  }
+  .lokasi .primary-button {
+    border-radius: 48px;
+    background: var(--foundation-yellow-normal, #EDA415);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0.4px 10px 0;
+    width: 95px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .lokasi .arrow-left {
+    margin: 15px 33.3px 18.4px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17.5px;
+    height: 11.3px;
+    box-sizing: border-box;
+  }
+  .lokasi .tentukan-lokasi {
+    color: #003F62; 
+    font-size: 36px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word
+  }
+  .lokasi .container-3 {
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 0;
+    width: 864px;
+    box-sizing: border-box;
+  }
+  
+  .lokasi .overlay {
+    position: relative;
+    width: auto;
+  }
+  .lokasi .union {
+    width: 100%; 
+    height: 90%; 
+    border-radius: 30px;
+  }
+  .lokasi .ellipse-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 142.786px;
+    z-index: 1; 
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .lokasi .ellipse-4 img {
+    width: auto; 
+    height: auto; 
+    position: absolute; /* Mengubah posisi gambar menjadi absolut */
+    top: 12px; /* Menggeser gambar ke atas */
+    left: 50%; /* Untuk membuat gambar berada di tengah secara horizontal */
+    transform: translateX(-50%);
+  }
+  .lokasi .redha-rizky, .lokasi .km {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+}
+.lokasi .redha-rizky {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lokasi .km {
+  top: 58%; 
+  left: auto;
+  transform: translateX(-50%, -50%);
+  font-size: 12px;
+}
+  .lokasi .textlabel-bank-account-number {
+    margin: 0 11px 27px 11px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-md-font-family, 'Poppins');
+    font-weight: var(--body-17-md-font-weight, 500);
+    font-size: var(--body-17-md-font-size, 17px);
+    color: var(--foundation-blue-normal-2, #003F62);
+  }
+  .lokasi .lokasi-1 {
+    margin: 0 23px 16px 23px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .lokasi .jl-dahlia-blok-j-5-no-32 {
+    margin-bottom: 3px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-rg-font-family, 'Poppins');
+    font-weight: var(--body-17-rg-font-weight, 400);
+    font-size: var(--body-17-rg-font-size, 17px);
+    color: #000000;
+  }
+  .lokasi .bandung-jawa-barat {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--foundation-primary-dark-1, #BFBFBF);
+  }
+  .lokasi .group-23 {
+    border-radius: 15px;
+    background: #DAEAF3;
+    position: relative;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 17px 9.2px 17px;
+    width: 56px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .lokasi .geo-alt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 22.1px;
+    height: 30.8px;
+    box-sizing: border-box;
+  }
+  .lokasi .lokasi-2 {
+    margin: 0 23px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .lokasi .jl-mawar-blok-k-2-no-15 {
+    margin-bottom: 4px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-rg-font-family, 'Poppins');
+    font-weight: var(--body-17-rg-font-weight, 400);
+    font-size: var(--body-17-rg-font-size, 17px);
+    color: #000000;
+  }
+  .lokasi .bandung-jawa-barat-1 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--foundation-primary-dark-1, #BFBFBF);
+  }
+  .lokasi .group-231 {
+    border-radius: 15px;
+    background: #DAEAF3;
+    position: relative;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 17px 9.2px 17px;
+    width: 56px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .lokasi .geo-alt-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 22.1px;
+    height: 30.8px;
+    box-sizing: border-box;
+  }
+  .lokasi .line-12 {
+    background: #BFBFBF;
+    margin: 0 11px 21px 11px;
+    align-self: flex-start;
+    width: 358px;
+    height: 1px;
+  }
+  .lokasi .container {
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lokasi .container-1 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .lokasi .container-2 {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .lokasi .container-3 {
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 10px 0;
+    width: 864px;
+    box-sizing: border-box;
+  }
+  .lokasi .container-4 {
+    margin: 0 0 51px 1.3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 862.8px;
+    box-sizing: border-box;
+  }
+  .lokasi .leading-icon {
+    margin: 3.3px 15.3px 3.3px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17.5px;
+    height: 17.5px;
+    box-sizing: border-box;
+  }
+  .lokasi .vector {
+    width: 17.5px;
+    height: 17.5px;
+  }
+  .lokasi .search-1 {
+    overflow-wrap: break-word;
+    font-family: var(--android-body-1-font-family, 'Balsamiq Sans');
+    font-weight: var(--android-body-1-font-weight, 400);
+    font-size: var(--android-body-1-font-size, 16px);
+    line-height: var(--android-body-1-line-height, 1.5);
+    color: var(--gray-100, #666666);
+  }
+  .lokasi .buka-toko {
+    overflow-wrap: break-word;
+    font-family: var(--heading-02-font-family, 'Poppins');
+    font-weight: var(--heading-02-font-weight, 700);
+    font-size: var(--heading-02-font-size, 16px);
+    color: var(--foundation-primary-normal, #FEFEFE);
+  }
+  .lokasi .arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17.5px;
+    height: 11.3px;
+    box-sizing: border-box;
+  }
+  .lokasi .arrow-1 {
+    width: 17.5px;
+    height: 11.3px;
+  }
+  .lokasi .vector-1 {
+    width: 22.1px;
+    height: 30.8px;
+  }
+  .lokasi .vector-2 {
+    width: 22.1px;
+    height: 30.8px;
+  }
