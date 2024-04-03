@@ -1,0 +1,829 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+ .popup__content {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+  }
+  .pesanan-sedang-diproes {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 0 210px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .group-11125 {
+    position: relative;
+    margin: 7px 79.3px 0 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .ellipse-4 {
+    border-radius: 44px;
+    background: url('../assets/images/ellipse41.png') 50% / cover no-repeat;
+    margin-right: 22px;
+    width: 88px;
+    height: 88px;
+  }
+  .pesanan-sedang-diproes .redha-rizky {
+    position: relative;
+    margin: 15px 0 34px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-3-semi-bold-font-family, 'Poppins');
+    font-weight: var(--heading-3-semi-bold-font-weight, 600);
+    font-size: var(--heading-3-semi-bold-font-size, 26px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .aktif-5-menit-lalu {
+    position: absolute;
+    right: 9.6px;
+    bottom: 11px;
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .rectangle-434 {
+    border-radius: 15px;
+    background: var(--foundation-yellow-normal, #EDA415);
+    position: absolute;
+    left: 607px;
+    bottom: 38px;
+    width: 165px;
+    height: 5px;
+  }
+  .pesanan-sedang-diproes .navbar-revisi {
+    position: relative;
+    margin: 0 0.5px 41px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25.5px 32.7px 25.5px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .frame-11070 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1012px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .group-11128 {
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px 24px 23px 20px;
+    width: 1012px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .frame-153 {
+    position: relative;
+    width: 328.3px;
+    height: 101px;
+  }
+  .pesanan-sedang-diproes .rectangle-921 {
+    border-radius: 20px;
+    background: url('../assets/images/rectangle9191.png') 50% / cover no-repeat;
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+    width: 106px;
+    height: 99px;
+  }
+  .pesanan-sedang-diproes .frame-131 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .kamera-cannon {
+    margin-bottom: 11px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-18-bd-font-family, 'Poppins');
+    font-weight: var(--body-18-bd-font-weight, 700);
+    font-size: var(--body-18-bd-font-size, 18px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .durasi-2-hari {
+    margin-bottom: 11px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-rg-font-family, 'Poppins');
+    font-weight: var(--body-17-rg-font-weight, 400);
+    font-size: var(--body-17-rg-font-size, 17px);
+    color: #2F2F2F;
+  }
+  .pesanan-sedang-diproes .tanggal-32245224 {
+    overflow-wrap: break-word;
+    font-family: var(--body-17-rg-font-family, 'Poppins');
+    font-weight: var(--body-17-rg-font-weight, 400);
+    font-size: var(--body-17-rg-font-size, 17px);
+    color: #2F2F2F;
+  }
+  .pesanan-sedang-diproes .ellipse-41 {
+    margin-right: 21px;
+    width: 56px;
+    height: 57px;
+  }
+  .pesanan-sedang-diproes .serba-ada {
+    margin: 7px 0 11px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-3-semi-bold-font-family, 'Poppins');
+    font-weight: var(--heading-3-semi-bold-font-weight, 600);
+    font-size: var(--heading-3-semi-bold-font-size, 26px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .rp-1000001-hari {
+    margin: 0 12.5px 4px 12.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .total-rp-205000 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-3-bold-font-family, 'Poppins');
+    font-weight: var(--heading-3-bold-font-weight, 700);
+    font-size: var(--heading-3-bold-font-size, 26px);
+    color: #000000;
+  }
+  .pesanan-sedang-diproes .line-21 {
+    background: #8F8C8C;
+    margin: 0 1px 12.5px 0;
+    width: 967px;
+    height: 1px;
+  }
+  .pesanan-sedang-diproes .secondary-button {
+    border-radius: 10px;
+    border: 1px solid var(--foundation-blue-darkhover, #00263B);
+    background: var(--foundation-blue-normal, #003F62);
+    margin: 7px 0 6px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 9px 18.9px 9px 18.5px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .textlabel-bank-account-number {
+    margin-bottom: 13px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .textlabel-bank-account-number {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #FF0000;
+  }
+  .pesanan-sedang-diproes .textlabel-account-holders-name {
+    margin-bottom: 15px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .textlabel-account-holders-name {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #FF0000;
+  }
+  .pesanan-sedang-diproes .textlabel-ifsc-code {
+    margin: 0 48px 18px 48px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .textlabel-ifsc-code {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #FF0000;
+  }
+  .pesanan-sedang-diproes .textlabel-ifsc-code-1 {
+    margin: 0 42px 20px 42px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .textlabel-ifsc-code-1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #FF0000;
+  }
+  .pesanan-sedang-diproes .primary-button {
+    top: 0;
+    border-radius: 10px;
+    background: var(--foundation-yellow-normal, #EDA415);
+    margin: 0 87px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .nomor-telepon {
+    border-radius: 10px;
+    border: 1px solid #002F4A;
+    background: #FEFEFE;
+    position: relative;
+    padding: 15px 23px 12px 23px;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .alamat {
+    border-radius: 10px;
+    border: 1px solid #002F4A;
+    background: #FEFEFE;
+    position: relative;
+    margin: 0 48px 66px 48px;
+    align-self: flex-start;
+    padding: 14px 17px 13px 17px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .nik {
+    border-radius: 10px;
+    border: 1px solid #002F4A;
+    background: #FEFEFE;
+    position: relative;
+    margin-bottom: 27px;
+    padding: 15px 23px 12px 23px;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .email {
+    border-radius: 10px;
+    border: 1px solid #002F4A;
+    background: #FEFEFE;
+    position: relative;
+    margin: 0 48px 30px 48px;
+    align-self: flex-start;
+    padding: 15px 23px 12px 23px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .belum-bayar {
+    margin-right: 13.5px;
+    width: 169.5px;
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .sedang-diproses {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .digunakan {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .pengembalian {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .selesai {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .kerusakan {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive-1, #050508);
+  }
+  .pesanan-sedang-diproes .container {
+    margin: 0 15.8px 17.5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 952.2px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 262.5px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-2 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 31.3px 14px 25px;
+    width: 1056px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-3 {
+    position: relative;
+    margin-left: 36px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-4 {
+    margin: 0 44px 25px 48px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-5 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-6 {
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-7 {
+    position: relative;
+    margin: 8.1px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 278.1px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-8 {
+    margin: 41px 31px 7px 0;
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .container-9 {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 968px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .nav-color {
+    background: var(--foundation-blue-normal, #003F62);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 2.5px 0 2.5px 23px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .logo {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 107px;
+    height: 90px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .logo-removebg-preview-1 {
+    background: url('img/Logo.png');
+    width: 107px;
+    height: 90px;
+  }
+  .pesanan-sedang-diproes .group-11037 {
+    bottom: 80px;
+    border-radius: 48px;
+    position: relative;
+    margin: 14px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 1px;
+    left: 120px;
+    width: 557.8px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .search {
+    border-radius: 48px;
+    border: 1px solid var(--gray-200, #B3B3B3);
+    background: var(--white, #FFFFFF);
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    padding: 17.8px 0 17.8px 14.3px;
+    width: 557.5px;
+    height: 61.5px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .leading-icon {
+    margin: 3.3px 15.3px 3.3px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17.5px;
+    height: 17.5px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .vector {
+    width: 17.5px;
+    height: 17.5px;
+  }
+  .pesanan-sedang-diproes .search-1 {
+    top: 0;
+    overflow-wrap: break-word;
+    font-family: var(--android-body-1-font-family, 'Balsamiq Sans');
+    font-weight: var(--android-body-1-font-weight, 400);
+    font-size: var(--android-body-1-font-size, 16px);
+    line-height: var(--android-body-1-line-height, 1.5);
+    color: var(--gray-100, #666666);
+  }
+  .pesanan-sedang-diproes .primary-button-1 {
+    border-radius: 48px;
+    top: -4px;
+    background: var(--foundation-yellow-normal, #EDA415);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18.5px 0.4px 18.5px 0;
+    width: 148.8px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .buka-toko {
+    overflow-wrap: break-word;
+    font-family: var(--heading-02-font-family, 'Poppins');
+    font-weight: var(--heading-02-font-weight, 700);
+    font-size: var(--heading-02-font-size, 16px);
+    color: var(--foundation-primary-normal-1, #FEFEFE);
+  }
+  .pesanan-sedang-diproes .frame-108 {
+    margin: 1.6px 0 0px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .cart-3 {
+    margin-right: 14.2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 32.8px;
+    height: 26.3px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .vector-stroke {
+    width: 32.8px;
+    height: 26.3px;
+  }
+  .pesanan-sedang-diproes .keranjang {
+    margin: 0.8px 0 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-bold-font-family, 'Open Sans');
+    font-weight: var(--body-17-bold-font-weight, 700);
+    font-size: var(--body-17-bold-font-size, 17px);
+    color: #FFFFFF;
+  }
+  .pesanan-sedang-diproes .frame-106 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .box {
+    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 27px;
+    height: 27.9px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .vector-111-stroke {
+    width: 27px;
+    height: 27.9px;
+  }
+  .pesanan-sedang-diproes .pesanan {
+    margin: 2.4px 0 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-17-bold-font-family, 'Open Sans');
+    font-weight: var(--body-17-bold-font-weight, 700);
+    font-size: var(--body-17-bold-font-size, 17px);
+    color: var(--foundation-yellow-normal, #EDA415);
+  }
+  .pesanan-sedang-diproes .button-store {
+    border-radius: 10px;
+    background: #EDA415;
+    position: relative;
+    margin-right: 20px;
+    width: 131.5px;
+    height: 44px;
+  }
+  .pesanan-sedang-diproes .union {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    width: 23px;
+    height: 21px;
+  }
+  .pesanan-sedang-diproes .buka-toko-1 {
+    position: absolute;
+    right: 14.2px;
+    bottom: 11px;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-md-font-family, 'Poppins');
+    font-weight: var(--body-14-md-font-weight, 500);
+    font-size: var(--body-14-md-font-size, 14px);
+    color: #FFFFFF;
+  }
+  .pesanan-sedang-diproes .button-user {
+    border-radius: 10px;
+    background: #EDA415;
+    position: relative;
+    width: 111px;
+    height: 44px;
+  }
+  .pesanan-sedang-diproes .person-circle {
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 21px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .pesanan-sedang-diproes .union-1 {
+    width: 21px;
+    height: 20px;
+  }
+  .pesanan-sedang-diproes .redhariz {
+    position: absolute;
+    right: 15.3px;
+    bottom: 11px;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-md-font-family, 'Poppins');
+    font-weight: var(--body-14-md-font-weight, 500);
+    font-size: var(--body-14-md-font-size, 14px);
+    color: #FFFFFF;
+  }
+  .pesanan-sedang-diproes .secondary-button-1 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-02-font-family, 'Poppins');
+    font-weight: var(--heading-02-font-weight, 700);
+    font-size: var(--heading-02-font-size, 16px);
+    color: var(--foundation-blue-light, #E6ECEF);
+  }
+  .pesanan-sedang-diproes .buka-toko-2 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-02-font-family, 'Poppins');
+    font-weight: var(--heading-02-font-weight, 700);
+    font-size: var(--heading-02-font-size, 16px);
+    color: var(--foundation-primary-normal-1, #FEFEFE);
+  }
+  .pesanan-sedang-diproes .container {
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: var(--foundation-primary-normal, #312D48);
+  }
+  .pesanan-sedang-diproes .jl-dahlia-blok-j-5-no-32 {
+    overflow-wrap: break-word;
+    font-family: var(--body-01-font-family, 'Poppins');
+    font-weight: var(--body-01-font-weight, 500);
+    font-size: var(--body-01-font-size, 14px);
+    color: var(--foundation-primary-p-300, #265073);
+  }
+  .pesanan-sedang-diproes .container-1 {
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: var(--foundation-primary-normal, #312D48);
+  }
+  .pesanan-sedang-diproes .redhagmail-com {
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: var(--foundation-primary-normal, #312D48);
+  }
+
+  .popup__content {
+    border-radius: 60px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 97px 75px 67px;
+    width: 700px;
+    height: 620px;
+    box-sizing: border-box;
+
+    opacity: 0;
+  }
+  .popup__content .barang-sebelum-digunakan {
+    margin: 0 0 5px 90px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-2-bold-font-family, 'Poppins');
+    font-weight: var(--heading-2-bold-font-weight, 700);
+    font-size: var(--heading-2-bold-font-size, 30px);
+    color: var(--foundation-blue-normal, #003F62);
+  }
+  .popup__content .camera {
+    margin: 0 0 11.4px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 64px;
+    height: 44.3px;
+    box-sizing: border-box;
+  }
+  .popup__content .camera-video {
+    margin-bottom: 9.2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 69px;
+    height: 40.6px;
+    box-sizing: border-box;
+  }
+  .popup__content .unggah-foto {
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .popup__content .unggah-video {
+    overflow-wrap: break-word;
+    font-family: var(--body-14-rg-font-family, 'Poppins');
+    font-weight: var(--body-14-rg-font-weight, 400);
+    font-size: var(--body-14-rg-font-size, 14px);
+    color: #000000;
+  }
+  .popup__content .primary-button {
+    border-radius: 10px;
+    background: var(--foundation-yellow-normal, #EDA415);
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0.6px 10px 0;
+    width: 347px;
+    box-sizing: border-box;
+  }
+  .popup__content .komentar {
+    border-radius: 10px;
+    border: 1px solid #1B3851;
+    position: relative;
+    margin-bottom: 46px;
+    padding: 3px 25.3px 207px 25.3px;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .popup__content .container {
+    margin: 0 0 67px 19px;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    box-sizing: border-box;
+  }
+  .popup__content .container-1 {
+    border-radius: 40px;
+    border: 1px dashed #001622;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34.2px 0 17px 0;
+    width: 297px;
+    box-sizing: border-box;
+  }
+  .popup__content .container-2 {
+    border-radius: 40px;
+    border: 1px dashed #001622;
+    position: relative;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28.4px 0 17px 0;
+    width: 297px;
+    box-sizing: border-box;
+  }
+  .popup__content .vector {
+    width: 64px;
+    height: 44.3px;
+  }
+  .popup__content .camera-video-1 {
+    width: 69px;
+    height: 40.6px;
+  }
+  .popup__content .buka-toko {
+    overflow-wrap: break-word;
+    font-family: var(--heading-02-font-family, 'Poppins');
+    font-weight: var(--heading-02-font-weight, 700);
+    font-size: var(--heading-02-font-size, 16px);
+    color: var(--foundation-primary-normal-1, #FEFEFE);
+  }
+  .popup__content .tulis-komentar {
+    overflow-wrap: break-word;
+    font-family: var(--body-18-rg-font-family, 'Poppins');
+    font-weight: var(--body-18-rg-font-weight, 400);
+    font-size: var(--body-18-rg-font-size, 18px);
+    color: var(--foundation-primary-darkactive, #727272);
+  }
+
+  .popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  #popup:target {
+    opacity: 1;
+    visibility: visible;
+  }
+  #popup:target .popup__content {
+    opacity: 1;
+  }
