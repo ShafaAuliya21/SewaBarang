@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+		<!-- Font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style_chat.css">
+	</head>
+	<body>
+		<div class="container-fluid h-100">
+			<div class="row justify-content-center h-100">
+				<div class="col-md-4 col-xl-3 chat">
+					<div class="card mb-sm-3 mb-md-0 contacts_card">
+						<div class="card-header" style="background-color: white;">
+							<h4 style="font-weight: bold;">
+								<img src="img/chat.png" alt="chat" style="width: 30px; height: 30px; margin: 10px;">Chat
+							</h4>
+							<div class="input-group">
+								<div class="pencarian input-group-prepend">
+									<span class="input-group-text" style="background-color: white; border-radius: 15px 0px 0px 15px !important; border: 1px solid #B3B3B3; ">
+										<i class="fas fa-search"></i>
+									</span>
+									<input type="text" placeholder="Search" name="" class="form-control search">
+									<div class="button_cari" style="background-color: #EDA415; width: 60px; height: 30px; border-radius: 20px; position: absolute; right: 5px; top: 0; bottom: 0; margin: auto; text-align: center; line-height: 30px; text-align: center;">cari</div>
+								</div>
+							</div>
+						</div>
+					<div class="card-body contacts_body">
+						<ui class="contacts">
+						<li class="active" style="border-radius: 15px 15px 0px 0px; ">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/serba_ada.png" alt="serba" class="rounded-circle user_img">
+								</div>
+								<div class="user_info">
+									<span>Serba ada</span>
+									<p>Mengetik...</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/nyewa_dulu.png" alt="nyewa" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Nyewa Dulu</span>
+									<p>Kualitasnya dijamin bagus kak seperti baru</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/rental_elektronik.png" alt="rental" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Rental Elektronik</span>
+									<p>Bang cara penggunaannya bagaimana ya?</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Rental Apa Saja</span>
+									<p>Kualitasnya bagus kak, ayo beli aku maksao</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/dijamin_bagus.png" alt="bagus" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Dijamin Bagus</span>
+									<p>Buat tanggal segitu stoknya masih ada kak</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/nyewa_dulu.png" alt="nyewa" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Nyewa Dulu</span>
+									<p>Kualitasnya dijamin bagus kak seperti baru</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/rental_elektronik.png" alt="rental" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Rental Elektronik</span>
+									<p>Bang cara penggunaannya bagaimana ya?</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Rental Apa Saja</span>
+									<p>Kualitasnya bagus kak, ayo beli aku maksao</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/dijamin_bagus.png" alt="bagus" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Dijamin Bagus</span>
+									<p>Buat tanggal segitu stoknya masih ada kak</p>
+								</div>
+							</div>
+						</li>
+						</ui>
+					</div>
+					<div class="card-footer"></div>
+				</div></div>
+				<div class="col-md-5 col-xl-3 chat">
+					<div class="card" style="background-color: #D7D7D7;">
+						<div class="card-header msg_head" style="background-color: white;">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/serba_ada.png" alt="serba" class="rounded-circle user_img">
+								</div>
+								<div class="user_info">
+									<span>Serba Ada</span>
+									<h4>Online</h4>
+								</div>
+							</div>
+							<span id="action_menu_btn"><i class="fas fa-arrow-circle-down" style="font-size: 30px; color: white; background-color: black; padding: 1px; border-radius: 50%;" onclick="location.href='detail_produk.html'"></i></span>
+							<div class="action_menu">
+							</div>
+						</div>
+						<div class="card-body msg_card_body">
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Hallo, siang ini saya ingin mengambil kamera yang sudah saya sewa, apakah bisa diambil?
+									<span class="msg_time_send">dibaca</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/serba_ada.png" alt="serba" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Tentu saja, kakak bisa mengambil kamera yang telah disewa. Jam berapa diambilnya kak? Apakah ada waktu tertentu yang spesifik untuk diambilnya?
+									<span class="msg_time">12.01</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Saya ingin mengambilnya jam 2 siang
+									<span class="msg_time_send">dibaca</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/serba_ada.png" alt="serba" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Baik, silahkan datang, jam 2 siang akan saya siapkan kamera Canon 1500D untuk Anda. Silakan konfirmasi lokasi pengambilan dan durasi sewa yang diinginkan.
+									<span class="msg_time">12.04</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Baik, saya akan kesana jam 2 siang untuk pengambilan kamera Canon 1500D. 
+									<span class="msg_time_send">dibaca</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/serba_ada.png" alt="serba" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									okay kak
+									<span class="msg_time">13.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<div class="input-group">
+								<div class="input-group-append">
+									<span class="input-group-text attach_btn"><i class="far fa-smile" style="font-size: 20px;"></i></span>
+								</div>
+								<textarea name="" class="form-control type_msg" placeholder="Ketik pesan"></textarea>
+								<div class="input-group-append">
+									<span class="input-group-text papper_btn"><i class="fas fa-paperclip" style="font-size: 20px;"></i></span>
+								</div>
+								<div class="input-group-append">
+									<span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>
